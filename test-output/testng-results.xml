@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17356" started-at="2017-04-20T08:09:42Z" finished-at="2017-04-20T08:10:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17356" started-at="2017-04-20T08:09:42Z" finished-at="2017-04-20T08:10:00Z">
+      <class name="testtwo.LoginClass">
+        <test-method status="PASS" signature="urload()[pri:0, instance:testtwo.LoginClass@1d057a39]" name="urload" duration-ms="14390" started-at="2017-04-20T13:39:42Z" finished-at="2017-04-20T13:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urload -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:testtwo.LoginClass@1d057a39]" name="test" is-config="true" duration-ms="2931" started-at="2017-04-20T13:39:57Z" finished-at="2017-04-20T13:40:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=urload status=SUCCESS method=LoginClass.urload()[pri:0, instance:testtwo.LoginClass@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testtwo.LoginClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
