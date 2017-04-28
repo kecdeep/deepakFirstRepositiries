@@ -20,7 +20,7 @@ public class Customize {
 public static String getTitle(WebDriver driver)
 {
  String pagetile=driver.getTitle();
-	
+	System.out.println("new update");
 	return pagetile;
 }
 
